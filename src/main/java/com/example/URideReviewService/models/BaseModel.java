@@ -13,6 +13,7 @@ import java.util.Date;
 @MappedSuperclass
 @Getter
 @Setter
+
 public abstract class BaseModel {
 
     @Id //this annotation makes the id property as primary key of table
