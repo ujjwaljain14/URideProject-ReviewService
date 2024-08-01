@@ -1,7 +1,5 @@
-package com.example.URideReviewService.models;
+package com.example.UberReviewService.models;
 
-import jakarta.annotation.Nullable;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import lombok.*;
@@ -15,14 +13,12 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Driver extends BaseModel{
+public class Passenger extends BaseModel{
 
     private String name;
 
-    @Column(nullable = false, unique = true)
-    private String licenseNumber;
-
-    @OneToMany(mappedBy = "driver")
+    @OneToMany(mappedBy = "passenger")
     private List<Booking> bookings = new ArrayList<>();
+
 
 }

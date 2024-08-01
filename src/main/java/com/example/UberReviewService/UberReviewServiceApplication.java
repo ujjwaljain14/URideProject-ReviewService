@@ -1,4 +1,4 @@
-package com.example.URideReviewService;
+package com.example.UberReviewService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class URideReviewServiceApplication {
+public class UberReviewServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(URideReviewServiceApplication.class, args);
+		SpringApplication.run(UberReviewServiceApplication.class, args);
 	}
 
 }

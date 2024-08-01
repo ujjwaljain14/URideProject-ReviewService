@@ -1,4 +1,4 @@
-package com.example.URideReviewService.models;
+package com.example.UberReviewService.models;
 
 public enum BookingStatus {
 

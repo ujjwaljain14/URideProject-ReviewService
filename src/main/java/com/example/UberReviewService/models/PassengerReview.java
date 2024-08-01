@@ -1,4 +1,4 @@
-package com.example.URideReviewService.models;
+package com.example.UberReviewService.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
