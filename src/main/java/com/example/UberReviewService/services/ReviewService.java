@@ -4,12 +4,14 @@ import com.example.UberReviewService.models.Booking;
 import com.example.UberReviewService.models.Review;
 import com.example.UberReviewService.repositories.BookingRepository;
 import com.example.UberReviewService.repositories.ReviewRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
 
+@Transactional
 @Service
 public class ReviewService implements CommandLineRunner {
 
