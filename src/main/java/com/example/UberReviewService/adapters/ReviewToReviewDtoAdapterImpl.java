@@ -1,7 +1,7 @@
 package com.example.UberReviewService.adapters;
 
 import com.example.UberReviewService.dtos.ReviewDto;
-import com.example.UberReviewService.models.Review;
+import com.example.uberprojectentityservice.models.Review;
 import org.springframework.stereotype.Component;
 
 @Component
